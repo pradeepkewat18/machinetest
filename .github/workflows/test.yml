@@ -25,7 +25,6 @@ jobs:
       - name: Commit and Push dist Folder
         run: |
           mkdir -p dist
-          cp -r dist/* ./dist/
           git config --global user.email "user@zehntech.com"
           git config --global user.name "zehntech"
           git add .
